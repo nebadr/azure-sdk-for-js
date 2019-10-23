@@ -6,11 +6,11 @@ This project provides a client library in JavaScript that makes it easy to consu
 
 Version: 12.0.0-preview.5
 
-- [Package (npm)](https://www.npmjs.com/package/@azure/storage-blob/v/12.0.0-preview.5)
-- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage/storage-file/samples)
-- [API Reference Documentation](https://azure.github.io/azure-sdk-for-js/storage-file/index.html)
+- [Package (npm)](https://www.npmjs.com/package/@azure/storage-file-share/v/12.0.0-preview.5)
+- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage/storage-file-share/samples)
+- [API Reference Documentation](https://azure.github.io/azure-sdk-for-js/storage-file-share/index.html)
 - [Product documentation](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
-- [Source code](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage/storage-file)
+- [Source code](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage/storage-file-share)
 - [Azure Storage File REST APIs](https://docs.microsoft.com/en-us/rest/api/storageservices/file-service-rest-api)
 
 ## Key concepts
