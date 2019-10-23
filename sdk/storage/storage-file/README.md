@@ -77,19 +77,19 @@ There are differences between Node.js and browsers runtime. When getting started
 The preferred way to install the Azure File Storage client library for JavaScript is to use the npm package manager. Simply type the following into a terminal window:
 
 ```bash
-npm install @azure/storage-file@12.0.0-preview.5
+npm install @azure/storage-file-share@12.0.0-preview.5
 ```
 
 In your TypeScript or JavaScript file, import via following:
 
 ```javascript
-import * as Azure from "@azure/storage-file";
+import * as Azure from "@azure/storage-file-share";
 ```
 
 Or
 
 ```javascript
-const Azure = require("@azure/storage-file");
+const Azure = require("@azure/storage-file-share");
 ```
 
 ### JavaScript bundle
@@ -97,7 +97,7 @@ const Azure = require("@azure/storage-file");
 To use the library with JS bundle in the browsers, simply add a script tag to your HTML pages pointing to the downloaded JS bundle file(s):
 
 ```html
-<script src="https://mydomain/azure-storage-file.min.js"></script>
+<script src="https://mydomain/azure-storage-file-share.min.js"></script>
 ```
 
 The JS bundled file is compatible with [UMD](https://github.com/umdjs/umd) standard, if no module system found, following global variable(s) will be exported:
@@ -124,11 +124,11 @@ For example, you can create following CORS settings for debugging. But please cu
 
 ### Import types
 
-You can use the `const Azure = require("@azure/storage-file");` shown above then use types and functions from `Azure`.
+You can use the `const Azure = require("@azure/storage-file-share");` shown above then use types and functions from `Azure`.
 Or you can selectively import certain types,
 
 ```javascript
-const { FileServiceClient, SharedKeyCredential } = require("@azure/storage-file");
+const { FileServiceClient, SharedKeyCredential } = require("@azure/storage-file-share");
 );
 ```
 

@@ -9,7 +9,7 @@ This project provides client libraries in JavaScript that makes it easy to consu
 - [Source Code - Queue](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage/storage-queue)
 - [Product documentation](https://docs.microsoft.com/en-us/azure/storage)
 - @azure/storage-blob [Package (npm)](https://www.npmjs.com/package/@azure/storage-blob/v/12.0.0-preview.5)
-- @azure/storage-file [Package (npm)](https://www.npmjs.com/package/@azure/storage-file/v/12.0.0-preview.5)
+- @azure/storage-file-share [Package (npm)](https://www.npmjs.com/package/@azure/storage-file-share/v/12.0.0-preview.5)
 - @azure/storage-queue [Package (npm)](https://www.npmjs.com/package/@azure/storage-queue/v/12.0.0-preview.5)
 - [API Reference documentation](https://azure.github.io/azure-sdk-for-js)
 - [Azure Storage REST APIs](https://docs.microsoft.com/en-us/rest/api/storageservices/)
@@ -118,7 +118,7 @@ To use the client libraries with JS bundle in the browsers, simply add a script 
 
 ```html
 <script src="https://mydomain/azure-storage-blob.min.js"></script>
-<script src="https://mydomain/azure-storage-file.min.js"></script>
+<script src="https://mydomain/azure-storage-file-share.min.js"></script>
 <script src="https://mydomain/azure-storage-queue.min.js"></script>
 ```
 
